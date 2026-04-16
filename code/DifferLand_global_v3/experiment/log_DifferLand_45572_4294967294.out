@@ -1,0 +1,317 @@
+2026年 04月 15日 星期三 13:17:15 CST
+Folder path exists: ../../../log/soc3_ge2
+Folder path exists: ../../../output/soc3_ge2
+Folder path exists: ../../../fig/soc3_ge2
+Weight for 
+ET, 1.0
+GPP, 1.0
+LAI, 1.0
+Reco, 1.0
+Rh, 1.0
+SOC, 1.0
+LMA, 1.0
+**********************************************************************
+Welcome to DifferLand!
+an automatically differentiable hybrid terrestrial biosphere model
+**********************************************************************
+SOC module type: mesc
+GPP and ET coupling module type: pml2
+Unseen time type: all_time
+TIME STEP: 30 days
+SOIL DEPTH: 5 cm
+Batch size: 400 grids
+LEARNING RATE: 0.0005
+TOTAL EPOCHES: 1000
+TOTAL ITERATIONS: 1
+Run index: 1
+Random seed: 42
+Point to grid observations: False
+Uncertainty of observations: False
+
+Training log will be stored in: ../../../log/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1.log
+
+--- Data Shapes and Data Types ---
+Predictors: shape=(40211, 21), type=<class 'jaxlib._jax.ArrayImpl'>
+Invariant forcings: shape=(40211, 7), type=<class 'jaxlib._jax.ArrayImpl'>
+Variant forcigns: shape=(40211, 12, 16), type=<class 'jaxlib._jax.ArrayImpl'>
+Invariant observations: shape=(40211, 3), type=<class 'jaxlib._jax.ArrayImpl'>
+Variant observations: shape=(40211, 12, 4), type=<class 'jaxlib._jax.ArrayImpl'>
+Grid weights: shape=(40211, 7), type=<class 'jaxlib._jax.ArrayImpl'>
+
+--- Mask Information ---
+Total samples=201600, not-nan samples=40211, type=<class 'jaxlib._jax.ArrayImpl'>
+Training samples=32168, type=<class 'jaxlib._jax.ArrayImpl'>
+Developing samples=4021, type=<class 'jaxlib._jax.ArrayImpl'>
+Testing samples=4022, type=<class 'jaxlib._jax.ArrayImpl'>
+
+Epoch 1, training loss: 3.306, developing loss: 10.494, testing loss: 10.480
+
+Epoch: 6
+110% of Best developing loss: 8.098
+Current: developing loss: 8.307, training loss: 1.835, testing loss: 8.384
+Current learning rate: 0.000500; Updated learning rate: 0.000495
+
+Epoch: 19
+110% of Best developing loss: 3.825
+Current: developing loss: 7.438, training loss: 1.094, testing loss: 7.520
+Current learning rate: 0.000495; Updated learning rate: 0.000490
+
+Epoch: 20
+110% of Best developing loss: 3.825
+Current: developing loss: 4.129, training loss: 0.965, testing loss: 4.178
+Current learning rate: 0.000490; Updated learning rate: 0.000485
+
+Epoch: 40
+110% of Best developing loss: 2.924
+Current: developing loss: 3.701, training loss: 0.765, testing loss: 3.803
+Current learning rate: 0.000485; Updated learning rate: 0.000480
+
+Epoch: 76
+110% of Best developing loss: 2.400
+Current: developing loss: 3.322, training loss: 0.796, testing loss: 3.308
+Current learning rate: 0.000480; Updated learning rate: 0.000475
+
+Epoch 101, training loss: 0.562, developing loss: 2.108, testing loss: 2.103
+
+Epoch: 115
+110% of Best developing loss: 2.089
+Current: developing loss: 2.115, training loss: 0.551, testing loss: 2.111
+Current learning rate: 0.000475; Updated learning rate: 0.000471
+
+Epoch: 116
+110% of Best developing loss: 2.089
+Current: developing loss: 2.090, training loss: 0.559, testing loss: 2.087
+Current learning rate: 0.000471; Updated learning rate: 0.000466
+
+Epoch: 152
+110% of Best developing loss: 1.979
+Current: developing loss: 2.044, training loss: 0.528, testing loss: 2.037
+Current learning rate: 0.000466; Updated learning rate: 0.000461
+
+Epoch: 173
+110% of Best developing loss: 1.881
+Current: developing loss: 1.931, training loss: 0.516, testing loss: 1.900
+Current learning rate: 0.000461; Updated learning rate: 0.000457
+
+Epoch 201, training loss: 0.498, developing loss: 1.681, testing loss: 1.656
+
+Epoch: 205
+110% of Best developing loss: 1.845
+Current: developing loss: 1.877, training loss: 0.512, testing loss: 1.871
+Current learning rate: 0.000457; Updated learning rate: 0.000452
+
+Epoch: 222
+110% of Best developing loss: 1.819
+Current: developing loss: 1.878, training loss: 0.518, testing loss: 1.851
+Current learning rate: 0.000452; Updated learning rate: 0.000448
+
+Epoch: 239
+110% of Best developing loss: 1.819
+Current: developing loss: 1.843, training loss: 0.507, testing loss: 1.813
+Current learning rate: 0.000448; Updated learning rate: 0.000443
+
+Epoch: 289
+110% of Best developing loss: 1.788
+Current: developing loss: 2.277, training loss: 0.653, testing loss: 2.272
+Current learning rate: 0.000443; Updated learning rate: 0.000439
+
+Epoch: 292
+110% of Best developing loss: 1.788
+Current: developing loss: 1.791, training loss: 0.516, testing loss: 1.789
+Current learning rate: 0.000439; Updated learning rate: 0.000434
+
+Epoch 301, training loss: 0.496, developing loss: 1.636, testing loss: 1.609
+
+Epoch: 319
+110% of Best developing loss: 1.784
+Current: developing loss: 1.940, training loss: 0.498, testing loss: 1.874
+Current learning rate: 0.000434; Updated learning rate: 0.000430
+
+Epoch: 338
+110% of Best developing loss: 1.751
+Current: developing loss: 1.767, training loss: 0.491, testing loss: 1.720
+Current learning rate: 0.000430; Updated learning rate: 0.000426
+
+Epoch: 356
+110% of Best developing loss: 1.751
+Current: developing loss: 1.781, training loss: 0.492, testing loss: 1.753
+Current learning rate: 0.000426; Updated learning rate: 0.000421
+
+Epoch 401, training loss: 0.481, developing loss: 1.592, testing loss: 1.566
+
+Epoch: 416
+110% of Best developing loss: 1.717
+Current: developing loss: 1.796, training loss: 0.471, testing loss: 1.761
+Current learning rate: 0.000421; Updated learning rate: 0.000417
+
+Epoch: 423
+110% of Best developing loss: 1.717
+Current: developing loss: 1.735, training loss: 0.478, testing loss: 1.696
+Current learning rate: 0.000417; Updated learning rate: 0.000413
+
+Epoch: 452
+110% of Best developing loss: 1.717
+Current: developing loss: 1.760, training loss: 0.480, testing loss: 1.720
+Current learning rate: 0.000413; Updated learning rate: 0.000409
+
+Epoch: 482
+110% of Best developing loss: 1.703
+Current: developing loss: 1.752, training loss: 0.474, testing loss: 1.716
+Current learning rate: 0.000409; Updated learning rate: 0.000405
+
+Epoch 501, training loss: 0.471, developing loss: 1.575, testing loss: 1.535
+
+Epoch: 509
+110% of Best developing loss: 1.703
+Current: developing loss: 1.715, training loss: 0.465, testing loss: 1.676
+Current learning rate: 0.000405; Updated learning rate: 0.000401
+
+Epoch: 510
+110% of Best developing loss: 1.703
+Current: developing loss: 1.731, training loss: 0.479, testing loss: 1.711
+Current learning rate: 0.000401; Updated learning rate: 0.000397
+
+Epoch: 527
+110% of Best developing loss: 1.702
+Current: developing loss: 1.814, training loss: 0.473, testing loss: 1.787
+Current learning rate: 0.000397; Updated learning rate: 0.000393
+
+Epoch: 589
+110% of Best developing loss: 1.695
+Current: developing loss: 1.709, training loss: 0.484, testing loss: 1.682
+Current learning rate: 0.000393; Updated learning rate: 0.000389
+
+Epoch 601, training loss: 0.457, developing loss: 1.540, testing loss: 1.517
+
+Epoch: 624
+110% of Best developing loss: 1.670
+Current: developing loss: 1.779, training loss: 0.459, testing loss: 1.741
+Current learning rate: 0.000389; Updated learning rate: 0.000385
+
+Epoch: 639
+110% of Best developing loss: 1.670
+Current: developing loss: 1.671, training loss: 0.458, testing loss: 1.638
+Current learning rate: 0.000385; Updated learning rate: 0.000381
+
+Epoch: 655
+110% of Best developing loss: 1.670
+Current: developing loss: 1.705, training loss: 0.453, testing loss: 1.665
+Current learning rate: 0.000381; Updated learning rate: 0.000377
+
+Epoch: 688
+110% of Best developing loss: 1.670
+Current: developing loss: 1.812, training loss: 0.529, testing loss: 1.801
+Current learning rate: 0.000377; Updated learning rate: 0.000374
+
+Epoch: 690
+110% of Best developing loss: 1.670
+Current: developing loss: 1.670, training loss: 0.463, testing loss: 1.646
+Current learning rate: 0.000374; Updated learning rate: 0.000370
+
+Epoch: 692
+110% of Best developing loss: 1.670
+Current: developing loss: 1.678, training loss: 0.461, testing loss: 1.657
+Current learning rate: 0.000370; Updated learning rate: 0.000366
+
+Epoch 701, training loss: 0.465, developing loss: 1.636, testing loss: 1.607
+
+Epoch: 714
+110% of Best developing loss: 1.670
+Current: developing loss: 1.737, training loss: 0.511, testing loss: 1.729
+Current learning rate: 0.000366; Updated learning rate: 0.000362
+
+Epoch: 734
+110% of Best developing loss: 1.665
+Current: developing loss: 1.676, training loss: 0.454, testing loss: 1.640
+Current learning rate: 0.000362; Updated learning rate: 0.000359
+
+Epoch: 759
+110% of Best developing loss: 1.665
+Current: developing loss: 1.745, training loss: 0.459, testing loss: 1.724
+Current learning rate: 0.000359; Updated learning rate: 0.000355
+
+Epoch: 790
+110% of Best developing loss: 1.657
+Current: developing loss: 1.726, training loss: 0.466, testing loss: 1.699
+Current learning rate: 0.000355; Updated learning rate: 0.000352
+
+Epoch: 796
+110% of Best developing loss: 1.657
+Current: developing loss: 1.670, training loss: 0.453, testing loss: 1.646
+Current learning rate: 0.000352; Updated learning rate: 0.000348
+
+Epoch 801, training loss: 0.452, developing loss: 1.580, testing loss: 1.547
+
+Epoch: 802
+110% of Best developing loss: 1.657
+Current: developing loss: 1.685, training loss: 0.454, testing loss: 1.669
+Current learning rate: 0.000348; Updated learning rate: 0.000345
+
+Epoch: 818
+110% of Best developing loss: 1.648
+Current: developing loss: 1.880, training loss: 0.456, testing loss: 1.845
+Current learning rate: 0.000345; Updated learning rate: 0.000341
+
+Epoch: 819
+110% of Best developing loss: 1.648
+Current: developing loss: 1.696, training loss: 0.454, testing loss: 1.673
+Current learning rate: 0.000341; Updated learning rate: 0.000338
+
+Epoch: 837
+110% of Best developing loss: 1.648
+Current: developing loss: 1.909, training loss: 0.470, testing loss: 1.862
+Current learning rate: 0.000338; Updated learning rate: 0.000334
+
+Epoch 901, training loss: 0.457, developing loss: 1.509, testing loss: 1.484
+
+Epoch: 912
+110% of Best developing loss: 1.630
+Current: developing loss: 1.666, training loss: 0.471, testing loss: 1.646
+Current learning rate: 0.000334; Updated learning rate: 0.000331
+
+Epoch: 913
+110% of Best developing loss: 1.630
+Current: developing loss: 1.642, training loss: 0.454, testing loss: 1.609
+Current learning rate: 0.000331; Updated learning rate: 0.000328
+
+Epoch: 931
+110% of Best developing loss: 1.630
+Current: developing loss: 1.752, training loss: 0.451, testing loss: 1.715
+Current learning rate: 0.000328; Updated learning rate: 0.000325
+
+Epoch: 957
+110% of Best developing loss: 1.629
+Current: developing loss: 1.629, training loss: 0.463, testing loss: 1.621
+Current learning rate: 0.000325; Updated learning rate: 0.000321
+
+Epoch: 975
+110% of Best developing loss: 1.629
+Current: developing loss: 1.642, training loss: 0.459, testing loss: 1.617
+Current learning rate: 0.000321; Updated learning rate: 0.000318
+
+Epoch: 977
+110% of Best developing loss: 1.629
+Current: developing loss: 1.664, training loss: 0.456, testing loss: 1.656
+Current learning rate: 0.000318; Updated learning rate: 0.000315
+Results saved to ../../../output/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1.pkl
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_loss.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_scatter.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_ET.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_ET_original_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_ET_anomaly_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_GPP.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_GPP_original_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_GPP_anomaly_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_LAI.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_LAI_original_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_LAI_anomaly_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_Reco.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_Reco_original_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_series_Reco_anomaly_reccap.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_Rh.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_SOC.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Global_pattern_difference_LMA.png
+Saving ../../../fig/soc3_ge2/mesc_pml2_all_time_ts_30_bs_400_lr_0.0005_epo_1000_it_1_r_42_unc_0_p2g_0_i_1/Temporal_performance_grid.png
+
+Calibration COMPLETE! Running time: 1 h, 18 min, 12 s
+2026年 04月 15日 星期三 14:35:31 CST

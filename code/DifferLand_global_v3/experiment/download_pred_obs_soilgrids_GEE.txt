@@ -1,0 +1,2 @@
+Soilgrids can also be downloaded through GEE
+https://code.earthengine.google.com/eeae87d52be50f7147c0248f6e0c2104
